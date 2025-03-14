@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lecture-video-to-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Sarique-Deepsolv <mohd.sarique@deepsolv.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.11.0.86"
+webvtt-py = "^0.5.1"
+srt = "^3.5.3"
+fpdf = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
